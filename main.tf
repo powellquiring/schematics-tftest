@@ -1,5 +1,5 @@
 locals {
-  param = "4"
+  param = "6"
 }
 resource "null_resource" "script" {
   triggers = {
