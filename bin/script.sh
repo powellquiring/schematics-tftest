@@ -15,5 +15,5 @@ if [ "x$TF_VAR_SCHEMATICSLOCATION" != x ]; then
 fi
 ibmcloud version
 ibmcloud plugin list
-ibmcloud target
+ibmcloud target -r us-south
 ibmcloud is vpcs
