@@ -1,5 +1,6 @@
 #!/bin/sh
 set -x
+printenv
 env
 set
 echo PARAM $PARAM
@@ -11,7 +12,7 @@ terraform version
 if [ "x$TF_VAR_SCHEMATICSLOCATION" != x ]; then
   # in schematics container
   # ibmcloud plugin install --all
-  ibmcloud plugin update --all
+  ibmcloud plugin update --all --force
 fi
 ibmcloud version
 ibmcloud plugin list
