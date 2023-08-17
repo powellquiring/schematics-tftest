@@ -2,3 +2,7 @@
 variable "prefix" {
   default = "prfx"
 }
+
+variable "SCHEMATICSLOCATION" {
+  default = ""
+}

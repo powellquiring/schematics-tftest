@@ -1,10 +1,11 @@
 #!/bin/sh
 set -x
-printenv
 env
 set
 echo PARAM $PARAM
 echo PREFIX $PREFIX
+echo SCHEMATICSLOCATION $SCHEMATICSLOCATION
+echo DESKTOP $DESKTOP
 python --version
 python3 --version
 jq --version
